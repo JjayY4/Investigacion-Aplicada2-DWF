@@ -1,13 +1,23 @@
+# Maven
 target/
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
+# Maven Wrapper
+mvnw
+mvnw.cmd
+
+# IDE
 .idea/
-*.iml
 *.iws
+*.iml
 *.ipr
 .classpath
 .project
@@ -15,15 +25,17 @@ target/
 bin/
 build/
 
+# Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
 logs/
 
+# Docker
 docker-compose.yml
 Dockerfile
-k8s/
 
-.mvn/
-mvnw
-mvnw.cmd
+# Kubernetes
+k8s/
